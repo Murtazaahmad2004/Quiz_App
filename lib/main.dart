@@ -11,8 +11,8 @@ class QuizApp extends StatelessWidget {
   @override
   Widget build(BuildContext context){
     return const MaterialApp(
-      home: QuizScreen(),
       debugShowCheckedModeBanner: false,
+      home: QuizScreen(),
     );
   }
 }
